@@ -1,1 +1,3 @@
-from mlProject.configuration import main
+from mlProject.logging import logger
+
+logger.info("This is our customer log!")
