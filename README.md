@@ -13,3 +13,10 @@ conda activate mlproj
 pip install -r requirements.txt
 
 ```
+
+
+```bash
+1. notebook expriment
+2. project utility - > logging, exceptions, utils, module
+3. project workflow
+```
