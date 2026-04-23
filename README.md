@@ -12,6 +12,14 @@
 9. update the app.py
 
 
+
+## project pipeline
+1. Data ingestion component --> github
+2. Data validation
+3. Data Transformation -> train, test 
+
+
+
 ```bash
 conda create -n mlproj python=3.8 -y
 ```
