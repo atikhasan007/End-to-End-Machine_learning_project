@@ -1,0 +1,16 @@
+# githib -> URL -> Download
+# artifacts/data_ingestion/unzip.data/wineql.csv
+
+
+
+
+
+
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://raw.githubusercontent.com/atikhasan007/Machine-Learning/db6028b4c582bf952f66f36bb64de5ff7b62442d/data1.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+
