@@ -42,3 +42,73 @@ pip install -r requirements.txt
 2. project utility - > logging, exceptions, utils, module
 3. project workflow
 ```
+
+# 🍷 Wine Quality Prediction - End-to-End Machine Learning Project
+
+## 📌 Project Overview
+This project is an end-to-end Machine Learning system that predicts wine quality based on physicochemical properties. It includes a full ML pipeline (data ingestion, validation, transformation, model training, evaluation) and a Flask web application for real-time predictions.
+
+---
+
+## 🎯 Business Objectives
+- Predict wine quality using chemical features
+- Build an automated end-to-end ML pipeline
+- Provide a user-friendly web interface
+- Enable model retraining using Flask `/train` endpoint
+
+---
+
+## 📊 Data Sources
+Dataset: Wine Quality Dataset
+
+### Features:
+- fixed acidity
+- volatile acidity
+- citric acid
+- residual sugar
+- chlorides
+- free sulfur dioxide
+- total sulfur dioxide
+- density
+- pH
+- sulphates
+- alcohol
+
+### Target:
+- quality (wine rating)
+
+---
+
+## 🔍 Exploratory Data Analysis (EDA)
+- Feature distribution analysis
+- Correlation heatmap
+- Outlier detection
+- Relationship between alcohol and wine quality
+
+---
+
+## 🤖 Models Used
+- ElasticNet Regression
+
+### ⚙️ Hyperparameters:
+- alpha: Regularization strength
+- l1_ratio: Balance between L1 and L2 penalty
+
+## 📈 Evaluation Metrics
+- RMSE (Root Mean Squared Error)
+- MAE (Mean Absolute Error)
+- R² Score
+
+---
+
+## 🌐 End-to-End Application
+This project includes a Flask web application.
+
+### Routes:
+- `/` → Home page (input form)
+- `/predict` → Make predictions
+- `/train` → Train the ML pipeline
+
+---
+
+## 📁 Project Structure
