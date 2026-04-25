@@ -16,7 +16,11 @@
 ## project pipeline
 1. Data ingestion component --> github
 2. Data validation
-3. Data Transformation -> train, test 
+3. Data Transformation ->preprocessing train, test 
+4. model trainer component
+5. model Evaluation component
+6. prediction pipeline
+7. user app with flask
 
 
 
