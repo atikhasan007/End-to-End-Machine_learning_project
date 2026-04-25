@@ -55,12 +55,9 @@ def create_directories(path_to_directories: list, verbose=True):
 
 @ensure_annotations
 def save_json(path: Path, data: dict):
-    """save json data
+    # 🔥 IMPORTANT FIX (create folder first)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
 
-    Args:
-        path (Path): path to json file
-        data (dict): data to be saved in json file
-    """
     with open(path, "w") as f:
         json.dump(data, f, indent=4)
 
